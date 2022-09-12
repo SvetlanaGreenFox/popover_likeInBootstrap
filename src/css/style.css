@@ -33,7 +33,6 @@ body {
   border: 0.5px solid #dc3545;
   border-radius: 0.3rem;
   margin-bottom: 5px;
-	visibility: hidden;
 }
 
 .form-control {
@@ -51,6 +50,10 @@ body {
   z-index: 999;
 }
 
-.show{
-	visibility: visible;
+[data-toggle='hidden'] {
+  visibility: hidden;
+}
+
+[data-toggle='show'] {
+  visibility: visible;
 }
